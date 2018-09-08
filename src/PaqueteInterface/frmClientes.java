@@ -702,7 +702,7 @@ public class frmClientes extends javax.swing.JFrame {
 
     private void btnAceptarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAceptarActionPerformed
         frmClientes cliente = new frmClientes();
-        cliente.setNombre(ftxtNombre.getText());
+        /*cliente.setNombre(ftxtNombre.getText());
         cliente.setApellido(ftxtApellido.getText());
         cliente.setDni(Integer.parseInt(ftxtDni.getText()));
         cliente.setDireccion(ftxtDireccion.getText());
@@ -714,7 +714,7 @@ public class frmClientes extends javax.swing.JFrame {
         else
         {
            JOptionPane.showMessageDialog(rootPane, "Error al agregar");
-        }
+        }*/
         //limpiar();
     }//GEN-LAST:event_btnAceptarActionPerformed
 
